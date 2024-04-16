@@ -1,0 +1,41 @@
+name: flutter_vendure_stor
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+
+  flutter: 
+    sdk: flutter
+  carousel_slider: ^4.2.1
+  cached_network_image: ^3.3.1
+  curved_navigation_bar: ^1.0.3
+  timelines: ^0.1.0
+  flutter_rating_bar: ^4.0.1
+  graphql_flutter: ^5.2.0-beta.6
+  shimmer: ^3.0.0
+  flutter_spinkit: ^5.2.0
+  shared_preferences: ^2.2.2
+  http: ^1.2.0
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+  fonts:
+    - family: myfont
+      fonts:
+        - asset: assets/font/Poppins-Bold.ttf
+        - asset: assets/font/Poppins-Regular.ttf
+
+
